@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css?famliy-Nunito&famliy-Nunito+Sans&display=swap");
+*{
+    margin:0;
+    padding:0;
+    outline:0;
+}
+body{
+    background-image:url(https://i.postimg.cc/3NYpXWzy/earth-g558de6d40-1920.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.m1{
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+    padding:16px;
+    width:300px;
+    border-radius:8px;
+    background-color:#00E3E3; 
+    box-shadow:5px 5px 11px #FFFFFF,-5px -5px 11px #FFFFFF;
+    text-align:center;
+    font-family:"Nunito",sans-serif;
+  }
+  .m2 h2{
+    text-align: left;
+    font-size: 15px;
+    color:white;
+  }
+  .m1 h3{
+    font-size: 1.5rem;
+    margin: 12px 0;
+  }
+  
+  .m3{
+    position: relative;
+    text-align: right;
+    top: 30%
+
+  }
+  .level{
+    width:80%;
+    -webkit-appearance:none;
+    appearance:none;
+    background-color:#00E3E3; 
+    box-shadow:5px 5px 11px #FFFFFF,-5px -5px 11px #FFFFFF;
+    border-radius:25px;
+    margin-bottom:12px;
+    
+  }
+  
+  .m1 img{
+    width:80%;
+    margin-bottom:12px ;
+  }
+  
+  .buttons{
+    display:inline-block;
+    margin: 12px 0;
+  }
+  
+  .buttons button{
+    position:relative;
+    width:50px;
+    height:50px;
+    border-radius:50px;
+    background-color:#FFFFFF; 
+    box-shadow:2px 2px 5px #FFFFFF,-2px -2px 5px #FFFFFF;
+  }
+  .buttons button:active{
+    background-color:#FFFFFF; 
+    box-shadow: inset 2px 2px 5px #FFFFFF,-2px -2px 5px #FFFFFF;
+  }
+  #play{
+    margin: 0 16px;
+  }
+  
+  .buttons button img{
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+    width:25px;
+    height:25px;
+  }
